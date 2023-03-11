@@ -218,13 +218,13 @@ function doWhile(num) {
    // Retornar el valor final.
    // Utilizar el bucle Do-While.
    // Tu código:
-   
+   let resultado = 0;
    let i = 0;
    do{
-      var resultado = 0;
-      resultado += 5;
+      
+      resultado = resultado + 5;
       i++;
-   }while(i > 8)
+   }while(i < 8)
 
    resultado = resultado + num;
    return resultado;
